@@ -1,0 +1,239 @@
+/* extra large device */
+/* large device */
+/* medium device */
+/* small device */
+
+@media(min-width:576px) and (max-width:767px){
+
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        
+        border-color: #fff;
+    }
+    .main_menu ul{
+        text-align: center;
+    }
+    #banner .row {
+        --bs-gutter-x: 0.5rem;
+    }
+    .about_img {
+        width: 95%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .about_img img {
+        width: 90%;
+    }
+    .our_img {
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .our_three {
+        text-align: center;
+    }
+    .our_three p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .venu_icon {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .text_form{
+        text-align: center;
+    }
+
+
+
+}
+
+/*=================== extra small device =====================*/
+@media(max-width:575px){
+    .main_menu ul li a::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translatex(-50%);
+        width: calc(100% - 80%);
+        height: 1px;
+        background-color: yellow;
+        opacity: 0;
+        -webkit-transform: translatex(-50%);
+        -moz-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+        -o-transform: translatex(-50%);
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+.navbar-toggler i{
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    
+    border-color: #fff;
+}
+.main_menu ul{
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 40px;
+}
+.banner_text h4{
+   font-size: 20px;
+}
+.banner_text_p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.banner_text {
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+.banner_btn i {
+    font-size: 20px;
+    top: 15px;
+    left: 9px;
+}
+.banner_btn p {
+	font-size: 12px;
+}
+.banner_btn h6{
+    font-size: 15px;
+}
+.banner_btn {
+    margin-left: 3px;
+	padding: 6px 10px 6px 30px;
+}
+#banner .slick-dots li {
+    display: inline-block;
+    margin-left: 4px;
+}
+#banner .slick-dots {
+    position: absolute;
+    top: 94%;
+    right: 42%;
+}
+/* #banner .row {
+	--bs-gutter-x: 0.5rem;
+} */
+.our_head::before {
+	right: 92px !important;
+}
+.our_head::after {
+	left: 90px !important;
+}
+.about_text p {
+    font-size: 14px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.about_img {
+    width: 95%;
+    text-align: center;
+    padding-top: 30px;
+}
+.about_img img {
+    width: 90%;
+}
+.about_head h3::before {
+    top: 54px;
+}
+.about_head h3::after {
+    top: 54px;
+}
+.our_head h2 {
+    font-size: 20px;
+}
+.our_head::before {
+    right: 120px;
+}
+.our_head::after {
+    left: 120px;
+}
+.our_text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.our_text_lst{
+    padding-bottom: 10px;
+}
+.our_text p {
+	padding-top: 1px;
+}
+.our_img {
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.our_three {
+    text-align: center;
+}
+.our_three p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.our_head h2::before {
+	top: 50px;
+	right: 90px;
+}
+.our_head h2::after {
+	top: 50px;
+	left: 88px;
+}
+.venu_icon {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.plan_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.team_about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.comment_text h6 {
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.comment_text p {
+    padding: 16px 15px;
+}
+.feed_one {
+    width: 70px !important;
+    height: 70px !important;
+}
+#feedback .slick-center .feed_one {
+    width: 80px !important;
+    height: 80px !important;
+}
+.text_form{
+    text-align: center;
+}
+#screen .slick-list {
+   margin-left: 40px;
+}
+
+
+
+
+
+
+
+}

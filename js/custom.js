@@ -26,7 +26,7 @@ $(".back_to_top").click(function(){
 
 $(function(){
 	$(".typed").typed({
-		strings: ["Developers.", "Designers.", "Freelancher."],
+		strings: ["Developer.", "Designer.", "Freelancher."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed

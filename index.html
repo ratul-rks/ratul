@@ -41,11 +41,11 @@
                 <a class="nav-link" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
             
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
             
               <li class="nav-item">
@@ -125,7 +125,7 @@
               <div class="about_text">
                 <h3>Ratul Das</h3>
               <h4>Web Designer</h4>
-              <p>I am a Web Designer have 5+ years experience , I am looking challenges in web design and I have knowledge in WordPress development and User Interface and Experience
+              <p>I am a Web Designer have 4+ years experience , I am looking challenges in web design and I have knowledge in WordPress development and User Interface and Experience.
               </p>
              <div class="about_down">
               <div class="about_cv">
@@ -156,17 +156,23 @@
      </div>
      <div class="row">
        <div class="col-lg-4">
-          <div class="service_item">
-            <i class="fas fa-file-word"></i>
-            <h3>WEB DESIGN</h3>
-            <p>Lorem ipsum dolor sit amet, no eos dicam vidisse inimicus, prima minim eos an. Sed tollit postea sed.</p>
-          </div>
+         
+            <div class="service_item">
+              <i class="fas fa-file-word"></i>
+              <h3>WEB DESIGN</h3>
+              <p>Although web design has a fairly recent history. it can be linked to others areas uach as graphic design user experience, and multimedia arts, but is more aptly seen from a technological standpoint. it has become a lage part part of people's everyday lives.</p>
+            </div>
+
+          
        </div>
        <div class="col-lg-4">
           <div class="service_item">
             <i class="fas fa-sliders-h"></i>
             <h3>PSD TO HTML</h3>
-            <p>Lorem ipsum dolor sit amet, no eos dicam vidisse inimicus, prima minim eos an. Sed tollit postea sed.</p>
+            <p>I can convert psd into html as well.
+              I have many  experience cause i have convart psd to html several times.
+              I have no doubt  that I can do this.
+            </p>
           </div>
        </div>
        <div class="col-lg-4">
@@ -237,24 +243,24 @@
      <div class="row">
        <div class="col-lg-3">
          <div class="portfolio_img">
-          <img src="images/port2.jpg" alt="">
+          <img src="images/hunt_psd.png" alt="">
          </div>
        </div>
        <div class="col-lg-3">
         <div class="portfolio_img">
           <div class="portfolio_img">
-            <img src="images/port3.jpg" alt="">
+            <img src="images/class-15p.png" alt="">
            </div>
          </div>
        </div>
        <div class="col-lg-3">
         <div class="portfolio_img">
-          <img src="images/port7.jpg" alt="">
+          <img src="images/class-17.png" alt="">
          </div>
        </div>
        <div class="col-lg-3">
         <div class="portfolio_img">
-          <img src="images/port3.jpg" alt="">
+          <img src="images/class-15.png" alt="">
          </div>
        </div>
      </div>
@@ -297,14 +303,21 @@
              <h5>Feel free to write something to me,</h5>
              <h5>I'll get back to you seen.</h5>
            </div>
-           <form action="" class="contact_form">
+
+           <form name="portfolio" action="" class="contact_form">
+            <input name="name" type="text" placeholder="Full Name" class="contact_name">
+            <input name="email" type="text" placeholder="Email Address" class="contact_email">
+           <input name="message" type="text" placeholder="Your Message" class="contact_message">
+           <button name="submit" type="submit" class="contact_submit_btn">SEND MESSAGE</button>
+          </form>
+           <!-- <form action="" class="contact_form">
              <input type="text" placeholder="Full Name" class="contact_name">
              <input type="text" placeholder="Email Address" class="contact_email">
               <textarea name="messsge" id="" cols="40" rows="4" placeholder="Your Message" class="contact_message"></textarea>
            </form>
            <div class="contact_btn">
              <a href="#">SEND MESSAGE</a>
-           </div>
+           </div> -->
          </div>
        </div>
      </div>
@@ -320,4 +333,17 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
 <script src="js/custom.js"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzGgZ41NZyPEYnQ2sELU6NkD90k5mnhJ7__gSunQ6g4GT3pB3FT/exec'
+              const form = document.forms['portfolio']
+            
+              form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                  .catch(error => console.error('Error!', error.message))
+              })
+  </script>
+
 </html>

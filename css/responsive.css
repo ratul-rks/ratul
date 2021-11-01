@@ -121,7 +121,10 @@ padding-right: 10px;
         padding: 33px 15px 20px 15px;
         width: 90%;
         margin: 10px auto;
-
+        height: auto;
+    }
+    .service_item p {
+        padding-bottom: 20px;
     }
 
     /* skills part start */
@@ -194,11 +197,11 @@ padding-right: 10px;
         color: #fff;
 }
 .portfolio_img {
-	width: 80%;
+	width: 96%;
 	margin: 0 auto;
 }
 .portfolio_img img {
-	margin: 10px 0;
+	margin: 25px 0;
 }
 
     /* contact part start  */
@@ -224,7 +227,7 @@ padding-right: 10px;
     }
     .contact_location {
         text-align: center;
-        width: 90%;
+        width: 95%;
         padding-top: 18px;
         padding-bottom: 8px;
     }
@@ -257,6 +260,9 @@ padding-right: 10px;
     }
     .contact_form {
         text-align: center;
+    }
+    .contact_location i {
+        margin-left: 0px;
     }
 
 

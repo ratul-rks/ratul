@@ -295,13 +295,14 @@ h1,h2,h3,h4,h5,h6,p{
     display: block;
     border: 3px solid #2c3535;
     text-align: center;
-    padding: 40px 27px 30px 27px;
+    padding: 20px 10px 20px 10px;
     width: 95%;
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    height: 415px;
 }
 .service_item:hover{
     border: 3px solid rgb(219, 33, 33);
@@ -482,7 +483,8 @@ h1,h2,h3,h4,h5,h6,p{
  /*============= portfolio part end  ==================*/
  /*============= contact part start  ==================*/
  #contact{
-     padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
      background-color: #f1f1f1;
  }
  .contact_head{
@@ -546,21 +548,20 @@ h1,h2,h3,h4,h5,h6,p{
      border-bottom: none;
  }
  .cnt_text{
-     padding-top: 5px;
+     padding-top: 20px;
      padding-bottom: 8px;
      border-bottom: 1px solid #055353;
      width: 65%;
+    margin-bottom: 20px;
  }
  .cnt_text h5{
      font-size: 17px;
      font-weight: 600;
      font-family: 'Open Sans', sans-serif;
-     color: #055353;
      padding-top: 3px;
  }
- .contact_form{
-     margin-top: 20px;
- }
+
+
  .contact_name{
      margin: 20px 0;
      width: 300px;
@@ -572,26 +573,26 @@ h1,h2,h3,h4,h5,h6,p{
      padding: 5px 10px;
  }
  .contact_message{
-     padding: 3px 10px;
+     padding: 3px 0 80px 10px;
      width: 300px;
  }
- .contact_btn{
+ 
+ .contact_submit_btn{
      margin-top: 20px;
- }
- .contact_btn a{
      padding: 10px 20px;
      background-color: rgb(136, 182, 45);
      font-family: 'Open Sans', sans-serif;
      font-weight: 400;
      color: #fff;
      display: inline-block;
+     border: none;
      border-radius: 8px;
      -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
      -ms-border-radius: 8px;
      -o-border-radius: 8px;
 }
-.contact_btn a:hover{
+.contact_submit_btn:hover{
     background-color: rgb(142, 92, 189);
 }
  /*============= contact part end  ==================*/
